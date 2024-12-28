@@ -1,0 +1,16 @@
+{
+  "name": "youtube-video-verifier",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Checks if the URL is a working Youtube Video.",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "node --test './tests/*.test.js'"
+  },
+  "keywords": [
+    "youtube",
+    "url"
+  ],
+  "author": "BookKnight",
+  "license": "MIT"
+}
