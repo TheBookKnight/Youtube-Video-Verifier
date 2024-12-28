@@ -1,8 +1,8 @@
-import { validateUrl } from './src/validate-url.js';
+import { isUrl } from './src/is-url.js';
 import { isYoutube } from './src/is-youtube.js';
 
 const listOfVerifications = [
-    validateUrl,
+    isUrl,
     isYoutube,
 ];
 
